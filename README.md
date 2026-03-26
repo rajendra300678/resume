@@ -1,45 +1,71 @@
-# vCard - Personal portfolio
+# Personal Website Template
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/mldangelo/personal-site/node.js.yml?branch=main)](https://github.com/mldangelo/personal-site/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/mldangelo/personal-site?style=social)](https://github.com/mldangelo/personal-site/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/mldangelo/personal-site?style=social)](https://github.com/mldangelo/personal-site/network/members)
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+A free, open-source portfolio website template built with [Next.js](https://nextjs.org/), [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), and [Tailwind CSS](https://tailwindcss.com/). Fork it and make it your own in under an hour.
 
-## Demo
+**[See it live →](https://mldangelo.com)**
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+## Why This Template?
 
-## Prerequisites
+- **Zero setup required.** Fork, open in GitHub Codespaces, and start editing.
+- **Modern tech stack.** Next.js 16, React 19, TypeScript, Tailwind CSS v4.
+- **Free hosting.** Deploys automatically to GitHub Pages.
+- **Dark mode.** System preference detection with manual toggle.
+- **Blog ready.** Markdown posts with RSS feed (optional).
+- **AI-friendly.** Works great with GitHub Copilot, Claude, and Cursor.
 
-Before you begin, ensure you have met the following requirements:
+## Get Started
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
-
-## Installing vCard
-
-To install **vCard**, follow these steps:
-
-Linux and macOS:
+### Option 1: Local Development
 
 ```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
+gh repo fork mldangelo/personal-site --clone
+cd personal-site
+npm install
+npm run dev
 ```
 
-Windows:
+Requires [GitHub CLI](https://cli.github.com/) and Node.js 20+ ([nvm](https://github.com/nvm-sh/nvm) recommended).
+
+### Option 2: GitHub Codespaces
+
+1. Click **Fork** at the top of this page
+2. In your fork, click **Code** → **Codespaces** → **Create codespace**
+3. Run `npm run dev`
+
+No local setup needed. Everything runs in your browser.
+
+## Customize It
+
+Follow the **[adapting guide](./docs/adapting-guide.md)** for a step-by-step checklist.
+
+**Pro tip:** Open the adapting guide in Copilot Chat or your favorite AI assistant and ask it to help you customize each section.
+
+## Commands
 
 ```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
+npm run dev      # Start dev server
+npm run build    # Build for production
+npm run format   # Format code
+npm test         # Run tests
 ```
 
-## Contact
+## Deploy
 
-If you want to contact me you can reach me at [Twitter](https://www.x.com/codewithsadee_).
+Push to `main` and GitHub Pages deploys automatically. See the [adapting guide](./docs/adapting-guide.md#deployment) for custom domain setup.
+
+## Contributing
+
+Contributions welcome! If you find a bug or want to improve something, please open a PR.
+
+See [contributing guide](./docs/contributing.md) and [design goals](./docs/design-goals.md).
 
 ## License
 
-MIT
+[MIT](./LICENSE). Use it however you want.
+# resume
 # resume
